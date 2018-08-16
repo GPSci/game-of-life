@@ -14,8 +14,10 @@ To learn more about Conway's Game of Life, check out this link: http://www.conwa
 * Trail Tiles - Set tiles that were active last step as *Red*, to create a 'burning' effect
 * Area Tiles - Set inactive tiles previously occupied at any point *Blue*, showing traversed areas (Note: this minorly reduces simulation tick speed)
 
-**Program Variables**
+**Option Variables**
 * `board_size` - Size of rendering canvas (pixels)
 * `tile_size` - Size of each tile (pixels) (Note: for optimal use, make sure `board_size` / `tile_size` is an integer resulting in a factor of `board_size`)
 * `interval` - Temporal step value (default: 40 ms)
 * `frequency` - the chance of generating a tile when using the Random Selection method (default 30, 30% active tile rate)
+
+![Alt text](https://raw.githubusercontent.com/GPSci/GameOfLife/master/screenshot.png?token=AQoSE7OwmK8y4vwXekDXQ7UPOD98bm66ks5bfz5twA%3D%3D "Title")
