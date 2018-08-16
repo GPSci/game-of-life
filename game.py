@@ -127,15 +127,13 @@ def calculate_matrix(input,prev,area):
                 if (neighbour_count == 3 and new_matrix[i][j] == 0):
                     temp[i][j] = 1
                     area[i][j] = 1         
-
         count += 1
         print(count)
+        
         # Update GUI
         update_tiles(temp,prev,area)
-
+        
         return temp
-
-
 
 # Function : Update and draw tile values
 def update_tiles(input,prev,area):
